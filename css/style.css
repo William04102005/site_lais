@@ -48,6 +48,22 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
+.logo{
+
+    width:100px ;
+    border-radius: 50px;
+  }
+  .logo3{
+    margin-right: 10px;
+    border: 3px solid #ad9d96;
+    width:70px ;
+    border-radius: 50px;
+  }
+  .logo2{
+    border: 3px solid #ad9d96;
+    width:70px ;
+    border-radius: 50px;
+  }
 
 body {
   margin: 0;
@@ -8414,9 +8430,9 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fdecda;
-    border: 1px solid #FFD700;
-    color: #fff; }
+    background: #c9a27a;
+    border: 1px solid #8f8d84;
+    color: #493d3d; }
     .btn.btn-primary:hover {
       border: 1px solid #FFD700;
       background: #e3c097;
