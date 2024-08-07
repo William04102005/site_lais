@@ -55,14 +55,24 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   }
   .logo3{
     margin-right: 10px;
-    border: 3px solid #ad9d96;
+    border: 3px solid #ffc403;
     width:70px ;
     border-radius: 50px;
   }
   .logo2{
-    border: 3px solid #ad9d96;
+    border: 3px solid #c99c0b;
     width:70px ;
     border-radius: 50px;
+  }
+  .logoconsulta{
+    border: 3px solid #c99c0b;
+    width: 70px ;
+    border-radius: 50px;
+  }
+  .logo5{
+    border: 3px solid #ad9d96;
+    width:70px ;
+    border-radius: 90px;
   }
 
 body {
@@ -71,7 +81,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000000;
   text-align: left;
   background-color: #fff; }
 
@@ -2446,7 +2456,7 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5); }
 
 .btn-outline-dark {
-  color: #343a40;
+  color: #596169;
   border-color: #343a40; }
   .btn-outline-dark:hover {
     color: #fff;
@@ -8016,7 +8026,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
-  color: gray; }
+  color: black; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8487,7 +8497,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-intro .services {
   padding: 30px;
-  background: #dac8b3;
+  background: #e9ac63;
   border-radius: 4px; }
   @media (min-width: 992px) {
     .ftco-intro .services {
@@ -8554,15 +8564,15 @@ h1, h2, h3, h4, h5,
       .services .media-body .btn-custom span {
         color: #fff; }
   .services:hover, .services.active {
-    background: #b39283; }
+    background: #faebd7; }
     .services:hover .icon, .services.active .icon {
       background: #fff; }
     .services:hover .media-body, .services.active .media-body {
-      color: rgba(255, 255, 255, 0.9); }
+      color: rgba(0, 0, 0, 0.9); }
       .services:hover .media-body h3, .services.active .media-body h3 {
-        color: #fff; }
+        color: #e9ac63; }
     .services:hover .btn-custom, .services.active .btn-custom {
-      background: #fff;
+      background: #faebd7;
       right: -20px; }
       .services:hover .btn-custom span, .services.active .btn-custom span {
         color: #dac8b3; }
@@ -8577,7 +8587,7 @@ h1, h2, h3, h4, h5,
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: #ed969e;
+    background: #ffe4c4;
     -webkit-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15); }
@@ -8641,7 +8651,7 @@ h1, h2, h3, h4, h5,
     height: 70px;
     content: '';
     z-index: 1;
-    background: #00bd56;
+    background: #ffe4c4;
     -webkit-transform: translate(50%, 50%);
     -ms-transform: translate(50%, 50%);
     transform: translate(50%, 50%);
@@ -8660,7 +8670,7 @@ h1, h2, h3, h4, h5,
       .work .icon {
         opacity: 1; } }
     .work .icon span {
-      color: #fff; }
+      color: #b77e7e; }
   .work:hover:after {
     opacity: .3; }
   .work:hover .icon {
@@ -8916,7 +8926,7 @@ textarea.form-control {
     .block-7 .pricing-text li span.fa {
       color: #207dff; }
   .block-7 .btn-primary {
-    color: #fff;
+    color: #292008;
     text-transform: uppercase;
     font-style: 16px;
     font-weight: 600;
@@ -8924,8 +8934,8 @@ textarea.form-control {
     width: 60%;
     margin: 0 auto; }
     .block-7 .btn-primary:hover, .block-7 .btn-primary:focus {
-      background: #00bd56 !important;
-      color: #fff; }
+      background: #f7e7ce !important;
+      color: #292008; }
   .block-7:hover, .block-7:focus {
     -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
     -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
@@ -9254,7 +9264,7 @@ textarea.form-control {
       border-radius: 50%;
       background: rgba(255, 255, 255, 0.1); }
       .testimony-section .owl-dots .owl-dot.active {
-        background: #00bd56; }
+        background: #e9ac63; }
 
 .testimony-wrap {
   display: block;
@@ -9273,7 +9283,7 @@ textarea.form-control {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #00bd56; }
+    background: #ffe4c4; }
     .testimony-wrap .icon span {
       color: #fff; }
   .testimony-wrap .user-img {
